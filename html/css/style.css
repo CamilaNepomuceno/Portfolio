@@ -10,15 +10,16 @@
             3. Navbar
             4. Home Banner Section
             5. About Section
-            6. Services Section
-            7. Portfolio Section
-            8. Blog Section
-            9. Contact Section
-            10. Footer
-            11. Blog Banner Section
-            12. Blog Post Page Main Area
-            13. Site Mobile Responsive
-            14. Particles Background
+            6. About Section
+            7. Services Section
+            8. Portfolio Section
+            9. Blog Section
+            10. Contact Section
+            11. Footer
+            12. Blog Banner Section
+            13. Blog Post Page Main Area
+            14. Site Mobile Responsive
+            15. Particles Background
 ===========================================*/
 
 
@@ -613,22 +614,26 @@ body.loaded p {
     color: #000;
 }
 
+#skillsc {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
-#about .about-info-container .about-skills {
+#skillsc .skillsc-info-container .skillsc-skillsc {
     padding-left: 50px;
 }
 
 
-#about .about-info-container .about-skills h3 {
+#skillsc .skillsc-info-container .skillsc-skillsc h3 {
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-#about .about-info-container .about-skills .progress-box {
+#skillsc .skillsc-info-container .skillsc-skillsc .progress-box {
     margin-bottom: 20px;
 }
 
-#about .about-info-container .about-skills .progress-box p {
+#skillsc .skillsc-info-container .skillsc-skillsc .progress-box p {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
@@ -636,19 +641,268 @@ body.loaded p {
     color: #000;
 }
 
-#about .about-info-container .about-skills .progress-box .progress {
+#skillsc .skillsc-info-container .skillsc-skillsc .progress-box .progress {
     -webkit-border-radius: 0;
     border-radius: 0;
     height: 2px;
 }
 
-#about .about-info-container .about-skills .progress-box .progress .progress-bar {
+#skillsc .skillsc-info-container .skillsc-skillsc .progress-box .progress .progress-bar {
     background-color: #616161;
     -webkit-transition: width 1.5s ease;
     -o-transition: width 1.5s ease;
     transition: width 1.5s ease;
     width: 0;
 }
+
+/*============ 6. Technical Section ============*/
+
+/* Begin cta section */
+#cta-section {
+	padding: 70px 0 80px;
+}
+.cta-btn {
+	margin-top: 30px;
+}
+/* End cta section */
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #111109;
+  left: 40px;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  /* z-index: 100; */
+  background-color: #353840;
+  color: white;
+  border: 7px solid #353840;
+  text-align: center;
+}
+.timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .timeline:before {
+    left: 50%;
+  }
+  .timeline > li {
+    margin-bottom: 100px;
+    min-height: 100px;
+  }
+  .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 0 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .timeline > li {
+    min-height: 150px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px;
+  }
+  .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .timeline > li {
+    min-height: 170px;
+  }
+  .timeline > li .timeline-panel {
+    padding: 0 20px 20px 100px;
+  }
+  .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0 100px 20px 20px;
+  }
+}
+
+p {
+  margin: 0 0 22px;
+}
+
+
+.personal-title {
+    font-family: 'Josefin Sans';
+    
+}
+
+.contact-address{
+    font-size: 20px;
+}
+
+#cvDownload {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ecebeb;
+}
+
+#email {
+    margin-top: -20px; 
+}
+
+
+a, a:hover, a:focus {
+    color: #676D75;
+    text-decoration: none;
+}
+
+
+#cvDownload {
+    background-color: #353840;
+    color: white;
+}
+
+#cvDownload:hover {
+    color: #060735;
+}
+
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.button-colour {
+    color: white;
+}
+
+.button-colour:hover {
+    color: #3078b3;
+}
+
+
 
 
 /*============ 6. Services Section ============*/
