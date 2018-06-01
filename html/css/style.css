@@ -565,6 +565,19 @@ body.loaded p {
     padding-bottom: 90px;
 }
 
+#about .about-info-text {
+    background-color: #f3f3f3;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
 #about .about-info-container {
     background-color: #f3f3f3;
     margin-top: 20px;
@@ -618,7 +631,7 @@ body.loaded p {
 #about .about-info-container .about-skills .progress-box p {
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: #000;
 }
