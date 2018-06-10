@@ -426,7 +426,7 @@ body.loaded p {
 /*============ 3 .Navbar ============*/
 
 .navbar {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-size: .90rem;
     position: absolute;
@@ -454,8 +454,8 @@ body.loaded p {
 }
 
 .navbar-scroll-fixed {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: fixed;
     background-color: #fff;
     -webkit-box-shadow: 0 1px 70px rgba(0, 0, 0, 0.5);
@@ -562,7 +562,7 @@ body.loaded p {
 /*============ 5. About Section ============*/
 
 #about {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px;
 }
 
@@ -615,7 +615,7 @@ body.loaded p {
 }
 
 #skillsc {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-bottom: 90px;
 }
 
@@ -659,7 +659,7 @@ body.loaded p {
 
 /* Begin cta section */
 #cta-section {
-	padding: 70px 0 80px;
+	padding: 100px 0 80px;
 }
 .cta-btn {
 	margin-top: 30px;
@@ -935,8 +935,8 @@ a, a:hover, a:focus {
 /*============ 7. Projects Section ============*/
 
 #projects {
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     background-color: #f2f2f2;
 }
 
@@ -1473,10 +1473,10 @@ footer p {
         margin-bottom: 60px;
         padding-right: 15px;
     }
-    #about .about-info-container .about-skills {
+    #skillsc .skillsc-info-container .skillsc-skillsc {
         padding-left: 15px;
     }
-    #about .about-info-container .about-skills h3 {
+    #skillsc .skillsc-info-container .skillsc-skillsc h3 {
         text-align: center;
     }
     #blog-posts-area .pagination {
@@ -1538,7 +1538,22 @@ footer p {
         margin-left: 40px;
         margin-top: 20px;
     }
-}
+    
+    #about {
+    padding-bottom: 50px;
+    }
+    
+    #about .about-info-text {
+    padding-top: 100px;
+    }
+    
+    #skillsc {
+    padding-bottom: 70px;
+    }
+    
+    #projects {
+    padding-bottom: 60px;
+    }
 
 
 /*============ 13. Particles Background ============*/
