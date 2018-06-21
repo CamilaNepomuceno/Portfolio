@@ -500,7 +500,7 @@ body.loaded p {
     text-align: center;
     position: absolute;
     z-index: 2;
-    top: 50%;
+    top: 43%;
     width: 100%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -938,6 +938,10 @@ a, a:hover, a:focus {
     padding-top: 100px;
     padding-bottom: 40px;
     background-color: #f2f2f2;
+}
+
+.projects-header .text-uppercase {
+    text-align: center;
 }
 
 .projects-header .projects-filter {
@@ -1555,7 +1559,7 @@ footer p {
     padding-bottom: 60px;
     }
 
-
+}
 /*============ 13. Particles Background ============*/
 
 #banner #particles-js {
@@ -1566,3 +1570,4 @@ footer p {
     right: 0;
     z-index: 10;
 }
+
