@@ -55,7 +55,7 @@ $(window).on('load', function() {
         var $elements = $('.portfolio-items');
         $elements.isotope();
 
-        $('.portfolio-filter ul li').on('click', function() {
+        /*$('.portfolio-filter ul li').on('click', function() {
             $('.portfolio-filter ul li').removeClass('sel-item');
             $(this).addClass('sel-item');
             var selector = $(this).attr('data-filter');
@@ -68,6 +68,7 @@ $(window).on('load', function() {
                 }
             });
         });
+        */
     }
 });
 
@@ -113,12 +114,14 @@ $(document).ready(function() {
         });
     });
 
+    /*
     // MAGNIFIC POPUP FOR PORTFOLIO
     $('.single-item a').magnificPopup({
         type: 'image',
         gallery: { enabled: true },
         zoom: { enabled: true,  duration: 250 }
     });
+    */
 
     // HOME TYPED JS
     if($('#typed').length) {
